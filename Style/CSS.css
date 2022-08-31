@@ -1,0 +1,161 @@
+body{
+    background-image: url(https://media.giphy.com/media/TRebCjNbc4dIA/giphy.gif);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::placeholder { color: black; }
+::-webkit-scrollbar {display: none;}
+/*Esto es el rectangulo principal con botones(header)*/
+header{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_header{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+img{
+    width: 20ex;
+    height: 20ex;
+    text-align: center;
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-size: 40px; 
+}
+h2{
+    margin: 10px;
+    color: rgb(156, 156, 20);
+    font-size: 35pxs;
+}
+p{
+    margin: 10px;
+    color: rgb(218, 218, 139);
+    font-size: 35px;   
+}
+input{
+    background-color: rgb(156, 156, 20);
+    color: aliceblue;
+    border: none;
+    width: 100%;
+    height: 10ex;
+    margin: 3ex;
+    text-align: center;
+}
+input:hover{
+    background-color: rgb(189, 207, 222);
+    cursor: pointer;
+    transition: 1s;
+}
+.panel_button{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.sub_titulo{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+a{
+    color: aliceblue;
+}
+
+/*Lista*/
+table{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+tbody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+tr{
+    background-color: rgb(57 125 185);
+    width: 30ex;
+    height: 30ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin: 10px;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: rgb(36, 87, 189);
+    transition: 1.5s;
+}
+th{
+    width: auto;
+    height: auto;
+    font-size: 2ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    color: aliceblue;
+}
+/*Con esto se edita el form para insertar tablas*/
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin: 3ex;
+}
+
+/*Con esto enchulamos el buscador*/
+.form_buscador{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buscador_click{
+    background-color: rgb(66, 94, 23);
+    width: 30ex;
+    height: 5ex;
+}
+.buscador{
+    background-color: rgb(197, 182, 47);
+    width: 80ex;
+    height: 5ex; 
+    border-radius: 5ex;
+}

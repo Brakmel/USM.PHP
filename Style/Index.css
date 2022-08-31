@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(57 125 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Esto es el rectangulo principal con botones(header)*/
+header{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_header{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+img{
+    width: 20ex;
+    height: 20ex;
+    text-align: center;
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-size: 40px; 
+}
+h2{
+    margin: 10px;
+    color: rgb(156, 156, 20);
+    font-size: 35pxs;
+}
+input{
+    background-color: rgb(156, 156, 20);
+    color: aliceblue;
+    border: none;
+    width: 100%;
+    height: 10ex;
+    margin: 3ex;
+}
+input:hover{
+    background-color: rgb(189, 207, 222);
+    cursor: pointer;
+    transition: 1s;
+}
+.panel_button{
+    background-color: rgb(57 125 185);
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.sub_titulo{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+/*Contenido principal*/
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.baules_categorias{
+    background-image: url(https://media.giphy.com/media/TRebCjNbc4dIA/giphy.gif);
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+/*El baul cartas se utilizo como modelo para el resto de cartas.*/
+.baul_categoria{
+    background-color: rgb(57 125 185);
+    width: 45%;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.tittle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.reseña{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+.h4{
+    margin: 1px;
+    color: aliceblue;
+    font-size: 35px;
+}
+.baul:hover{
+    cursor: pointer;
+    background-color: rgb(157, 187, 213);
+    transition: 1.5s;
+}
+.p_baul{
+    margin: 1px;
+    color: aliceblue;
+    font-size: 25px;
+}
+.calendario{
+    border-radius: 160px;
+    width: 160px;
+    height: 160px;
+}
+.calendario:hover{
+    transition: 1s;
+    transform: scale(1.8);
+}
+/*Esto dura hasta aqui*/
+
+a{
+    color: aliceblue;
+    margin:1ex;
+}
+
+
