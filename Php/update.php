@@ -3,10 +3,10 @@
 include("conexion.php");
 $con=conectar();
 
-$Titulo=$_POST['Titulo'];
+$fecha=$_POST['fecha'];
 $descripcion=$_POST['descripcion'];
 
-$sql="UPDATE sushi SET  descripcion='$descripcion' WHERE Titulo='$Titulo'";
+$sql="UPDATE carolina SET  descripcion='$descripcion' WHERE fecha='$fecha'";
 $query=mysqli_query($con,$sql);
 
     if($query){

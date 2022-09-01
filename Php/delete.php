@@ -3,9 +3,9 @@
 include("conexion.php");
 $con=conectar();
 
-$Titulo=$_GET['id'];
+$fecha=$_GET['id'];
 
-$sql="DELETE FROM sushi  WHERE Titulo='$Titulo'";
+$sql="DELETE FROM carolina  WHERE fecha='$fecha'";
 $query=mysqli_query($con,$sql);
 
     if($query){

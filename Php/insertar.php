@@ -2,11 +2,11 @@
 include("conexion.php");
 $con=conectar();
 
-$Titulo=$_POST['Titulo'];
+$fecha=$_POST['fecha'];
 $descripcion=$_POST['descripcion'];
 
 
-$sql="INSERT INTO sushi VALUES('$Titulo','$descripcion')";
+$sql="INSERT INTO carolina VALUES('$fecha','$descripcion')";
 $query= mysqli_query($con,$sql);
 
 if($query){

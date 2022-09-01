@@ -4,7 +4,7 @@
 
 $id=$_GET['id'];
 
-$sql="SELECT * FROM sushi WHERE Titulo='$id'";
+$sql="SELECT * FROM carolina WHERE fecha='$id'";
 $query=mysqli_query($con,$sql);
 
 $row=mysqli_fetch_array($query);
@@ -16,7 +16,7 @@ $row=mysqli_fetch_array($query);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USM.CL</title>
-    <link rel="StyleSheet" href="../Style/CSS.css" type="text/css">
+    <link rel="StyleSheet" href="../Style/css.css" type="text/css">
 </head>
 <header>
     <div class="baul_header">
@@ -28,7 +28,7 @@ $row=mysqli_fetch_array($query);
 </header>
     <body>
         <form action="update.php" method="POST">
-            <input type="hidden" name="Titulo" value="<?php echo $row['Titulo']  ?>">
+            <input type="hidden" name="fecha" value="<?php echo $row['fecha']  ?>">
             <input type="text"  name="descripcion" placeholder="Solicitante" value="<?php echo $row['descripcion']  ?>">
             <input type="submit" value="Actualizar">
         </form>
